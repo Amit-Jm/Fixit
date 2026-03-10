@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fixit Mobile Repair</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Fixit Mobile Repair</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#repair">Book Repair</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Glowing Notice Below Header -->
+<div class="notice-top">
+  ⚠ Home Service Available Only in Nalasopara Area
+</div>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <h2>Mobile Repair Service</h2>
+  <p>Professional Mobile Repair Service</p>
+  <a class="btn" href="#repair">Book Repair</a>
+</section>
+
+<!-- Repair Form Section -->
+<section id="repair">
+  <h2>Book Mobile Repair</h2>
+
+  <form id="repairForm">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+
+    <select name="brand" required>
+      <option value="">Select Mobile Brand</option>
+      <option>Apple</option>
+      <option>Samsung</option>
+      <option>OnePlus</option>
+      <option>Vivo</option>
+      <option>Oppo</option>
+      <option>Realme</option>
+      <option>Xiaomi</option>
+      <option>Motorola</option>
+      <option>Other</option>
+    </select>
+
+    <select name="problem" required>
+      <option value="">Select Problem</option>
+      <option>Screen Broken</option>
+      <option>Battery Issue</option>
+      <option>Charging Problem</option>
+      <option>Speaker Problem</option>
+      <option>Mic Problem</option>
+      <option>Water Damage</option>
+      <option>Software Issue</option>
+      <option>Other</option>
+    </select>
+
+    <textarea name="details" placeholder="Additional Details (Optional)"></textarea>
+
+    <button type="submit">Submit Request</button>
+    <div class="success" id="successMsg">
+      Repair request sent successfully. We will contact you soon.
+    </div>
+  </form>
+</section>
+
+<!-- Contact Section with Icons -->
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <p>Use the repair request form or contact us:</p>
+
+  <div class="contact-icons">
+    <!-- WhatsApp -->
+    <a id="whatsappBtn" href="#" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20.52 3.48A11.89 11.89 0 0012 0C5.37 0 0 5.37 0 12a11.95 11.95 0 002.16 6.78L0 24l5.39-2.13A11.91 11.91 0 0012 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.22-3.48-8.52zM12 21.82a9.79 9.79 0 01-5.2-1.55l-.37-.22-3.2 1.27 1.34-3.12-.24-.38A9.84 9.84 0 012.18 12c0-5.45 4.37-9.82 9.82-9.82 2.62 0 5.08 1.02 6.93 2.88A9.78 9.78 0 0121.82 12c0 5.45-4.37 9.82-9.82 9.82zm5.54-7.54c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.18.2-.35.22-.65.08-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.67-2.06-.18-.3-.02-.46.13-.61.13-.12.3-.3.45-.45.15-.15.2-.25.3-.42.1-.18.05-.33-.02-.48-.07-.15-.68-1.63-.93-2.23-.24-.58-.49-.5-.68-.51l-.58-.01c-.2 0-.52.08-.8.38-.28.3-1.08 1.06-1.08 2.58s1.11 3 1.27 3.21c.15.2 2.19 3.37 5.3 4.72.74.32 1.31.51 1.76.65.74.22 1.42.19 1.96.12.6-.08 1.78-.73 2.03-1.44.25-.7.25-1.3.18-1.44-.07-.15-.27-.22-.57-.37z"/>
+      </svg>
+    </a>
+
+    <!-- Email -->
+    <a id="emailBtn" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 12.713l-11.985-7.713h23.97l-11.985 7.713zm0 2.574l-12-7.713v13.426h24v-13.426l-12 7.713z"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Fixit Mobile Repair
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

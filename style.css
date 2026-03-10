@@ -36,7 +36,7 @@ font-weight:bold;
 }
 
 
-/* ===== HERO ===== */
+/* ===== HERO SECTION ===== */
 
 .hero{
 text-align:center;
@@ -51,33 +51,24 @@ border:none;
 background:white;
 color:#007BFF;
 cursor:pointer;
+font-size:16px;
 }
 
 
-/* ===== FORM ===== */
+/* ===== SECTION ===== */
 
 section{
 padding:40px;
 text-align:center;
 }
 
-form{
-max-width:400px;
-margin:auto;
-}
 
-input,select,textarea{
+/* ===== GOOGLE FORM ===== */
+
+iframe{
+max-width:800px;
 width:100%;
-padding:10px;
-margin:8px 0;
-}
-
-button{
-padding:12px;
-background:#007BFF;
-color:white;
 border:none;
-cursor:pointer;
 }
 
 
